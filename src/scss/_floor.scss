@@ -1,0 +1,195 @@
+// 商品楼层-main
+.floor{
+    margin-top:18px;
+}
+// 楼层标题左侧
+.floor .floor-title{
+    height:32px;
+    line-height:32px;
+    margin-bottom:5px;
+    position: relative;
+}
+.floor .floor-title h2{
+    font:bold 18px "Microsoft YaHei";
+}
+.floor .floor-title h2 a{
+    color:#fc5f3c;
+}
+.floor .floor-title h2 a i{
+    display:inline-block;
+    width:31px;
+    height:18px;
+    margin-right:10px;
+    padding:10px 7px 4px 7px;
+    color:#fff;
+    font-size: 14px;
+    vertical-align: text-bottom;
+    background: url(../../dist/img/floor_tit_icon.png) 0 0 no-repeat;
+}
+// 楼层标题右侧-关键字
+.floor-title .title-keyword a{
+    color:#4e4e4e;
+}
+.floor-title .title-keyword a::after{
+    content: "|";
+    padding:0 7px;
+}
+.floor-title .title-keyword .last::after{
+    content: "";
+}
+// 楼层商品展示li
+.floor .main-left a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.f01 .main-right li,
+.f02 .main-right li,
+.f03 .main-right li{
+    float:left;
+    width:230px;
+    height:230px;
+    border-right:1px solid #d5d5d5;
+    border-bottom:1px solid #d5d5d5;
+    background: #fff;
+    overflow: hidden;
+}
+.f01 .main-right .wide,
+.f02 .main-right .wide,
+.f03 .main-right .wide{
+    width:461px;
+    height:230px;
+}
+.floor .main-right .line{
+    border-top:1px solid #d5d5d5;
+}
+.floor-main{
+    position: relative;
+}
+.floor .main-right>div{
+    background: #fff;
+    border-right:1px solid #d5d5d5;
+    border-bottom:1px solid #d5d5d5;
+    overflow: hidden;
+}
+.f04 .main-right .col1,
+.f05 .main-right .col1,
+.f06 .main-right .col1,
+.f07 .main-right .col1,
+.f08 .main-right .col1,
+.f09 .main-right .col1{
+    width:234px;
+    height:383px;
+}
+.f04 .main-right .col2,
+.f05 .main-right .col2,
+.f06 .main-right .col2,
+.f07 .main-right .col2,
+.f08 .main-right .col2,
+.f09 .main-right .col2{
+    border:0;
+    width:442px;
+}
+.f04 .main-right .col2 li,
+.f05 .main-right .col2 li,
+.f06 .main-right .col2 li,
+.f07 .main-right .col2 li,
+.f08 .main-right .col2 li,
+.f09 .main-right .col2 li{
+    float:left;
+    width:220px;
+    height:191px;
+    border-right:1px solid #d5d5d5;
+    border-bottom:1px solid #d5d5d5;
+    overflow: hidden;
+}
+.f04 .main-right .col3,
+.f05 .main-right .col3,
+.f06 .main-right .col3,
+.f07 .main-right .col3,
+.f08 .main-right .col3,
+.f09 .main-right .col3{
+    width:246px;
+    height:461px;
+}
+.f04 .main-right .logo-list,
+.f05 .main-right .logo-list,
+.f06 .main-right .logo-list,
+.f07 .main-right .logo-list,
+.f08 .main-right .logo-list,
+.f09 .main-right .logo-list{
+    width:654px;
+    height:55px;
+    padding:11px;
+    position: absolute;
+    left:275px;
+    top:385px;
+}
+.f04 .main-right .logo-list a,
+.f05 .main-right .logo-list a,
+.f06 .main-right .logo-list a,
+.f07 .main-right .logo-list a,
+.f08 .main-right .logo-list a,
+.f09 .main-right .logo-list a{
+    width:80px;
+    margin:0 14px;
+    float:left;
+}
+.floor-main .main-right a{
+    display:block;
+    width:100%;
+    height:100%;
+    transition:transform .2s linear;
+}
+.floor-main .main-right a:hover{
+    transform: translateX(5px);
+}
+// 每层的楼层图标
+.f02 .floor-title h2 a{
+    color:#007f4d;
+}
+.f03 .floor-title h2 a{
+    color:#45c6ce;
+}
+.f04 .floor-title h2 a{
+    color:#f0c000;
+}
+.f05 .floor-title h2 a{
+    color:#e08683;
+}
+.f06 .floor-title h2 a{
+    color:#b84f00;
+}
+.f07 .floor-title h2 a{
+    color:#764e00;
+}
+.f08 .floor-title h2 a{
+    color:#940606;
+}
+.f09 .floor-title h2 a{
+    color:#3ca3dc;
+}
+.f02 .floor-title h2 a i{
+    background: url(../../dist/img/floor_tit_icon.png) -46px 0 no-repeat;
+}
+.f03 .floor-title h2 a i{
+    background: url(../../dist/img/floor_tit_icon.png) -184px 0 no-repeat;
+}
+.f04 .floor-title h2 a i{
+    background: url(../../dist/img/floor_tit_icon.png) -92px 0 no-repeat;
+}
+.f05 .floor-title h2 a i{
+    background: url(../../dist/img/floor_tit_icon.png) -138px 0 no-repeat;
+}
+.f06 .floor-title h2 a i{
+    background: url(../../dist/img/floor_tit_icon.png) -368px 0 no-repeat;
+}
+.f07 .floor-title h2 a i{
+    background: url(../../dist/img/floor_tit_icon.png) -230px 0 no-repeat;
+}
+.f08 .floor-title h2 a i{
+    background: url(../../dist/img/floor_tit_icon.png) -414px 0 no-repeat;
+}
+.f09 .floor-title h2 a i{
+    background: url(../../dist/img/floor_tit_icon.png) -531px 0 no-repeat;
+}

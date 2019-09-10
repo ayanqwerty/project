@@ -1,0 +1,110 @@
+// 底部footer
+.footer{
+    margin:50px 0 20px 0;
+}
+// footer的头部导航
+.footer .fot-top{
+    // width:100%;
+    background: #e0e0e0;
+    padding:30px;
+}
+.footer .fot-nav li{
+    float:left;
+    width:190px;
+    height:42px;
+    margin-left:55px;
+    padding-left:55px;
+    background: url(../../dist/img/footer_service_icon.png) 0 0 no-repeat;
+}
+.footer .fot-nav li:nth-child(2){
+    background-position: 0 -42px;
+}
+.footer .fot-nav li:nth-child(3){
+    background-position: 0 -84px;
+}
+.footer .fot-nav li:nth-child(4){
+    background-position: 0 -126px;
+}
+.fot-nav li span{
+    display:block;
+    padding-left:15px;
+    color:#007f4d;
+    font:normal 18px/25px "Microsoft YaHei";
+    border-left:1px solid #a6a6a6;
+}
+.fot-nav li em{
+    display:block;
+    padding-left:15px;
+    border-left:1px solid #a6a6a6;
+    color:#444444;
+}
+// footer的中间部分
+.footer .fot-mid{
+    margin-top:50px;
+}
+.footer .fot-mid ul{
+    float:left;
+    width:190px;
+    margin-left:50px;
+    display:inline-block;
+    color:#444444;
+}
+.fot-mid ul li:nth-child(1){
+    height:23px;
+    line-height:23px;
+    font-size: 14px;
+    text-indent: 40px;
+    background: url(../../dist/img/footer_icon.png) 0 0 no-repeat;
+}
+.fot-mid .list2 li:nth-child(1){
+    background-position: 0 -23px ;
+}
+.fot-mid .list3 li:nth-child(1){
+    background-position: 0 -46px ;
+}
+.fot-mid .list4 li:nth-child(1){
+    background-position: 0 -69px ;
+}
+.fot-mid .list5 li:nth-child(1){
+    background-position: 0 -92px ;
+}
+.fot-mid ul .list-main{
+    border-left: 1px dashed #A8A8A8;
+    padding-left: 20px;
+    height: 110px;
+    min-height: 110px;
+    margin: 15px 0 0 13px;
+}
+.fot-mid ul .list-main a{
+    line-height:22px;
+    color:#575556;
+}
+.fot-mid ul .list-main a:hover{
+    color:#008842;
+}
+// footer的最底部
+// 客服热线
+.fot-bot .service{
+    text-align: center;
+    padding: 60px 0 20px;
+    color: #008842;
+    font-size: 14px;
+}
+.fot-bot .service span{
+    padding:0 10px;
+}
+// 版权
+.fot-bot .copyright p,
+.fot-bot .copyright p a{
+    text-align: center;
+    color: #717171;
+    line-height: 22px;
+}
+.fot-bot .copyright p:nth-child(2) a:hover{
+    color: #008842;
+}
+.fot-bot .copyright .rightLogo a{
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}

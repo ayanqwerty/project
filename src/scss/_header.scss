@@ -1,0 +1,227 @@
+// header
+.header{
+    background: #e0e0e0;
+}
+.header .wrapper{
+    padding:15px 0 5px 0;
+}
+// logo
+.header .logo{
+    width:280px;
+    margin-right:10px;
+}
+.header .logo a{
+    display:block;
+    width:145px;
+    height:50px;
+    background: url(../../dist/img/logo.png) 0 0 no-repeat;
+}
+// 搜索框
+.search{
+    position: relative;
+}
+.search .s-bar [type="text"]{
+    width:447px;
+    height:28px;
+    padding:0 10px;
+    background: #e0e0e0;
+    box-sizing: border-box;
+    outline: none;
+    border:0;
+    color:rgb(153, 153, 153);
+    font-size: 12px;
+    border:1px solid #008842;
+    
+}
+.search .s-bar [type="submit"]{
+    width:81px;
+    height:28px;
+    background: #008842;
+    color:#FFF;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    border:0;
+}
+.search #reminder{
+    width: 455px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 27px;
+    width: 445px;
+    border: 1px solid #CCC;
+    background: #fff;
+    z-index: 99999;
+}
+.search #reminder li{
+    overflow: hidden;
+    padding: 3px 6px;
+    line-height: 22px;
+    cursor: pointer;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+// 搜索框下面关键字
+.search .s-keywords{
+    height:30px;
+    line-height:30px;
+}
+.search .s-keywords a{
+    margin-right:5px;
+    color:#727272;
+}
+.search .s-keywords .hot{
+    color:#008842;
+}
+// 购物车
+// 购物车按钮
+.header .cart{
+    width:172px;
+    height:42px;
+    padding:6px 0;
+    box-sizing: border-box;
+    border:1px solid #008842;
+    background: #fff;
+    position: relative;
+}
+
+.cart .shop-btn a{
+    display:block;
+    text-align: center;
+    line-height:28px;
+    color:#008842;
+}
+.cart .shop-btn span{
+    display:inline-block;
+    line-height:28px;
+    width:28px;
+    height:20px;
+    margin-right:10px;
+    background: url(../../dist/img/header-img.png) -112px 0 no-repeat;
+    vertical-align: middle;
+}
+.cart .shop-btn span b{
+    display:block;
+    line-height:12px;
+    width:24px;
+    height:12px;
+    text-align: center;
+    margin-right:4px;
+}
+.cart .shop-btn .price{
+    font-size: 25px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+// 购物车列表
+.cart .shop-list{
+    width:380px;
+    padding:10px;
+    background:#fff;
+    border:1px solid #008842;
+    position: absolute;
+    top:40px;
+    right:-1px;
+    display:none;
+    z-index: 500;
+}
+// 没有商品的购物车列表
+.shop-list .nogoods{
+    width:100%;
+    height:120px;
+    line-height:120px;
+    text-align: center;
+    position: relative;
+    display:none;
+}
+.shop-list .nogoods p{
+    position: absolute;
+    top:0;
+    left:50%;
+    margin-left:-100px;
+}
+
+
+// 有商品的购物车列表
+.shop-list a{
+    color:#444;
+}
+.shop-list ul {
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 380px;
+    max-height: 264px;
+    margin: 10px 0 0 0;
+    padding: 0px;
+}
+.shop-list li {
+    position: relative;
+    overflow: hidden;
+    zoom: 1;
+    background: #fff;
+    height: 45px;
+    padding: 0 0 15px 0;
+    line-height: 20px;
+}
+.shop-list li .l {
+    float: left;
+    margin-right: 5px;
+    width: 45px;
+    height: 45px;
+}
+.shop-list li .c {
+    float: left;
+    width: 222px;
+}
+.shop-list li .c a {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.shop-list li .r {
+    float: left;
+    text-align: right;
+    width: 90px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.shop-list li .r b {
+    color: #e7380d;
+    font-weight: bold;
+}
+.shop-list li .r a {
+    display: block;
+    color: #888;
+}
+
+.shop-list .price-total {
+    font-size: 12px;
+    line-height: 27px;
+    margin-top: 5px;
+    padding-top: 10px;
+    text-align: right;
+    border-top: 1px solid #dcdcdc;
+}
+.shop-list .price-total span {
+    margin-left: 15px;
+}
+.shop-list .price-total b {
+    color: #e7380d;
+    font-size: 16px;
+    margin: 0 5px;
+}
+.shop-list .settleup {
+    display: inline-block;
+    width: 75px;
+    height: 27px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #008842;
+}

@@ -1,0 +1,52 @@
+// banner
+.banner{
+    position: relative;
+    margin-bottom:50px;
+    height:500px;
+}
+// 图片
+.banner .banner-pic img{
+    width:100%;
+    height:500px;
+    display:block;
+    background-image: url(../../dist/img/9288738997806878.jpg);
+}
+// 左右箭头
+.banner-arrow a{
+    width:40px;
+    height:100px;
+    position: absolute;
+    opacity: .3;
+    filter: alpha(opacity=30);
+}
+.banner-arrow .left-arrow{
+    background:url(../../dist/img/slider-btn.png) 0 0 no-repeat;
+    left:0;
+    top:50%;
+    margin-top:-50px;
+}
+.banner-arrow .right-arrow{
+    background: url(../../dist/img/slider-btn.png) -50px 0 no-repeat;
+    top:50%;
+    margin-top:-50px;
+    right:0;
+}
+// 切换按钮
+.banner-btn .btn-list{
+    position: absolute;
+    bottom:12px;
+    left:43%;
+    height:12px;
+}
+.banner-btn .btn-list span{
+    display:inline-block;
+    width:12px;
+    height:12px;
+    line-height:10px;
+    cursor: pointer;
+    text-indent: -999px;
+    border-radius: 50%;
+    margin:0 5px;
+    color:#5aaa16;
+    background: #5aaa16;
+}

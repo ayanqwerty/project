@@ -1,0 +1,129 @@
+// 全部商品分类
+.allGoods{
+    position: absolute;
+    left:50%;
+    margin-left:-600px;
+    z-index: 100;
+}
+// 商品分类按钮
+.allGoods .sort-title{
+    width:180px;
+    height:38px;
+    position: relative;
+    text-align: center;
+    background: #008842;
+}
+.allGoods .sort-title a{
+    color:#fff;
+    display:block;
+    font:bold 15px/16px "Microsoft YaHei";
+    padding:11px 0;
+}
+// 商品分类下面的列表
+.allGoods .sort-list{
+    height:462px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+}
+.sort-list h3 a{
+    display:block;
+    width:165px;
+    height:24px;
+    padding:9px 0 9px 15px;
+    font:normal 14px/24px "Microsoft YaHei";
+    color:#444444;
+    overflow: hidden;
+    position: relative;
+    z-index: 80;
+}
+.sort-list h3 a.current{
+    padding:8px 0 8px 15px;
+    border:1px solid #bbb;
+    border-right:0;
+    z-index: 110px;
+    background: rgba(255, 255, 255, .95);
+}
+.sort-list h3 a i{
+    display:inline-block;
+    width:24px;
+    height:24px;
+    margin-right:15px;
+    vertical-align: middle;
+    background: url(../../dist/img/nav-icon.png) 0 0 no-repeat;
+}
+.sort-list .t01 a i{
+    background-position: 0 0;
+}
+.sort-list .t02 a i{
+    background-position: -24px 0;
+}
+.sort-list .t05 a i{
+    background-position: -48px 0;
+}
+.sort-list .t06 a i{
+    background-position: -72px 0;
+}
+.sort-list .t12 a i{
+    background-position: 0 0;
+}
+.sort-list .t04 a i{
+    background-position: -96px 0;
+}
+.sort-list .t08 a i{
+    background-position: -120px 0;
+}
+.sort-list .t03 a i{
+    background-position: -144px 0;
+}
+.sort-list .t10 a i{
+    background-position: -168px 0;
+}
+.sort-list .t07 a i{
+    background-position: -192px 0;
+}
+.sort-list .t09 a i{
+    background-position: -216px 0;
+}
+.sort-list .t11 a i{
+    background-position: -240px 0;
+}
+.sort-list h3 a b{
+    position: absolute;
+    top:7px;
+    right:18px;
+    font-family: Arial;
+    font-weight: normal;
+    vertical-align: middle;
+    display:none;
+}
+// 商品列表的二级菜单
+.sort-list .sub-item{
+    position: absolute;
+    left:180px;
+    top:-38px;
+    width:215px;
+    height:464px;
+    padding:17px 20px;
+    border:1px solid #bbb;
+    background: rgba(255, 255, 255, .95);
+}
+.sub-item h4 a{
+    font:normal 18px "Microsoft YaHei";
+    color:#20985a;
+    text-decoration: underline;
+}
+.sub-item .sub-list a{
+    display: inline-block;
+    line-height:25px;
+    margin-right:30px;
+    color:#444;
+}
+.sub-item .sub-ad{
+    position: absolute;
+    bottom:10px;
+    z-index: 3;
+}
+.sub-item .sub-list a:hover{
+    color:#008842;
+}

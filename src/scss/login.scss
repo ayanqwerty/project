@@ -1,0 +1,193 @@
+// header
+.header .logo{
+    position: relative;
+}
+.header .logo .txt{
+    width:56px;
+    font:28px/1 Microsoft YaHei;
+    color:#008842;
+    position: absolute;
+    left:245px;
+    margin-top:9px;
+    top:0;
+}
+// 登录框
+.form{
+    background: #fff;
+}
+
+.right-frame p{
+    margin-bottom: 20px;
+    font: 12px Arial, "SimSun";
+    color: #878787;
+    position: relative;
+}
+.right-frame .wel strong{
+    color:#262626;
+    font:18px/1 "Microsoft YaHei";
+}
+.right-frame .wel span{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.right-frame .wel span a{
+    color:#008842;
+    text-decoration: underline;
+}
+.right-frame .user,
+.right-frame .pass{
+    position: relative;
+}
+.right-frame .user span,
+.right-frame .pass span,
+.right-frame .repass span{
+    display:block;
+    width:40px;
+    height:38px;
+    background: url(../../dist/img/bg_input.png) 0 -120px no-repeat;
+    position: absolute;
+    left:1px;
+    top:1px;
+}
+.right-frame .pass span,
+.right-frame .repass span{
+    background-position: 0 -180px;
+}
+.right-frame .user input,
+.right-frame .pass input,
+.right-frame .repass input{
+    width:254px;
+    padding-left:50px;
+    height:38px;
+    background: #fff;
+    vertical-align: middle;
+    outline: none;
+    border:1px solid #c1c1c1;
+}
+.right-frame .repass input{
+    width:100px;
+}
+.right-frame .repass b{
+    display:inline-block;
+    width:60px;
+    height:38px;
+    line-height:40px;
+    background:#fff;
+    text-align: center;
+    vertical-align: middle;
+    border:1px solid #ccc;
+    font-size:16px;
+}
+.right-frame .repass a{
+    color:#878787;
+}
+.right-frame .repass a:hover{
+    color:#008042;
+}
+.right-frame [type="checkbox"]{
+    margin-right:9px;
+    width:14px;
+    height:14px;
+    vertical-align: -1px;
+} 
+.right-frame .checkbox{
+    position: relative;
+}
+.right-frame .checkbox a{
+    color:#878787;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+.right-frame .checkbox a:hover{
+    color:#008842;
+}
+.right-frame [type="submit"]{
+    width:306px;
+    height:50px;
+    text-align: center;
+    color:#fff;
+    font:18px/50px "Microsoft YaHei";
+    background: #008042;
+    border:0;
+    cursor: pointer;
+}
+.right-frame .login-style{
+    height:20px;
+}
+.right-frame .login-style a{
+    display: inline-block;
+    width:88px;
+    height:100%;
+    margin-right:20px;
+}
+.login-style .qq {
+    background: url(../../dist/img/bg_login.png) -60px -200px no-repeat;
+}
+.login-style .weibo {
+    background: url(../../dist/img/bg_login.png) -160px -200px no-repeat;
+}
+.right-frame .login-style .ay {
+    width:57px;
+    margin:0;
+    background: url(../../dist/img/bg_login.png) -260px -200px no-repeat;
+}
+.right-frame .mask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: lightslategray;
+    opacity: .5;
+    z-index: 6px;
+    display: none;
+}
+.right-frame .login-dialog{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 410px;
+    height: 250px;
+    margin: -170px 0 0 -250px;
+    padding: 45px;
+    border: 1px solid #c7c7c7;
+    background: #fff;
+    z-index: 50;
+}
+.login-dialog .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 41px;
+    height: 41px;
+    background: url(../../dist/img/cha.png) no-repeat center center;
+}
+.login-dialog p{
+    padding: 0 40px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #565656;
+}
+.login-dialog .code{
+    text-align: center;
+    margin:35px 0 0;
+}
+
+
+.msg-wrap {
+    height: auto !important;
+    margin: 2px 0px 5px;
+    min-height: 31px;
+    display:none;
+}
+.msg-error {
+    position: relative;
+    background: #FFEBEB none repeat scroll 0% 0%;
+    border: 1px solid #E4393C;
+    padding: 3px 10px 3px 40px;
+    line-height: 18px;
+    min-height: 18px;
+    color: #E4393C;
+}

@@ -1,0 +1,27 @@
+// 在线客服和回到顶部侧边栏
+.sidenav{
+    width:50px;
+    position: fixed;
+    right:50%;
+    margin-right:-670px;
+    bottom:20px;
+}
+.sidenav a{
+    display:block;
+    width:50px;
+    height:42px;
+    margin-bottom:10px;
+    background: lavender
+}
+.sidenav .side-service{
+    background: url(../../dist/img/sidebar.png) 0 -46px no-repeat;
+}
+.sidenav .side-goTop{
+    background: url(../../dist/img/sidebar.png) 0 0 no-repeat;
+}
+.sidenav a:hover.side-service{
+    background: url(../../dist/img/sidebar.png) -56px -46px no-repeat;
+}
+.sidenav a:hover.side-goTop{
+    background: url(../../dist/img/sidebar.png) -56px 0 no-repeat;
+}

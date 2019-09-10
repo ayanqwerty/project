@@ -1,0 +1,139 @@
+.form2{
+    padding-top:30px;
+}
+.form2 .wrapper{
+    padding:40px 0 50px;
+    background: #fff;
+    position: relative;
+}
+
+// 左边
+.message .mes-left p{
+    margin-bottom: 29px;
+    font:14px Arial,"Microsoft YaHei";
+}
+.message .mes-left input{
+    margin-right:20px;
+    border: 1px solid #c1c1c1;
+    background-color: #fff;
+    height: 38px;
+    vertical-align: middle;
+    padding-left: 14px;
+    width: 290px;
+    font: 14px/38px "Microsoft YaHei";
+    outline: none;
+}
+.message .mes-left .short{
+    width:147px;
+}
+.mes-left .field-name{
+    display: inline-block;
+    width: 220px;
+    padding-right: 20px;
+    text-align: right;
+    color:#444;
+}
+.mes-left p:nth-child(1) b{
+    display:inline-block;
+    width:60px;
+    height:40px;
+    border: 1px solid #c1c1c1;
+    box-sizing: border-box;
+    background: #fff;
+    text-align: center;
+}
+.mes-left p:nth-child(1) a{
+    line-height:38px;
+    color:#666666;
+}
+.mes-left p:nth-child(1) a:hover{
+    color:#008842;
+}
+.mes-left .input-phone,
+.mes-left .input-key{
+    background: url(../../dist/img/bg_input.png) 0 0 no-repeat;
+}
+.mes-left .input-phone{
+    background-position: 276px -30px;
+}
+.mes-left .input-key{
+    background-position: 276px -70px;
+}
+.mes-left .btn-yzm{
+    display: inline-block;
+    width: 121px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #f7f7f7;
+    border: 1px solid #c1c1c1;
+    color: #008842;
+    margin-right: 20px;
+}
+.message .mes-left [type="checkbox"]{
+    width: 14px;
+    height: 14px;
+    margin-right: 9px;
+    vertical-align: -1px;
+}
+.mes-left label{
+    color:#444;
+}
+.mes-left label .green{
+    color:#008842;
+}
+.mes-left #regis{
+    display: inline-block;
+    width:306px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    border:0;
+    outline:none;
+    background-color: grey;
+    font: 18px/50px "Microsoft YaHei";
+}
+// 右边
+.message .mes-right{
+    padding-top:50px;
+}
+//tab
+.form2 .tab{
+    position: absolute;
+    top: 17px;
+    right: 0;
+    font: 14px/1 "Microsoft YaHei";
+}
+.form2 .tab .orange{
+    margin-right: 36px;
+    text-decoration: underline;
+    color: #ef760a;
+}
+
+// 提示
+.pass-error {
+    color: #f60000;
+}
+.pass-succ,
+.pass-tip{
+    color:#444;
+}
+.pass-succ i, .pass-tip i, .pass-error i {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    margin-right: 9px;
+}
+.pass-error i{
+    background-position: -40px -200px;
+}
+.form2 i{
+    background-image: url(../../dist/img/bg_login.png);
+}
+.pass-tip i {
+    background-position: -20px -200px;
+}
+.pass-succ i {
+    background-position: 0 -200px;
+}
