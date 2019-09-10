@@ -89,14 +89,7 @@ $(document).ready(function () {
             })
 
             // 4.楼梯效果
-            // 4.1鼠标悬停，文字出现,移开恢复初始状态
-            this.$loutiItem.hover(function () {
-                $(this).children().show();
-                _this.$loutiItem.not($(this),$('.active')).children().hide();
-                console.log(_this.$loutiItem)
-            }, function () {
-                $(this).children().hide();
-            })
+
             // 4.2拖动滚动条，显示隐藏楼梯
             $(window).on('scroll', function () {
                 _this.scroll($(this));
@@ -104,7 +97,7 @@ $(document).ready(function () {
 
             //  4.4给楼梯添加点击事件
             this.$loutiItem.parent().on('click', function () {
-                $(this).find('em').show();
+                $(this).addClass('active').siblings().removeClass("active");
                 let $top = $('.floor').eq($(this).index()).offset().top;
                 $('html,body').animate({
                     scrollTop: $top
@@ -140,7 +133,6 @@ $(document).ready(function () {
                 $(this).find(".banner-arrow a").hide();
             })
 
-
         }
         // 4.2
         scroll(obj) {
@@ -156,8 +148,8 @@ $(document).ready(function () {
             $('.floor').each(function (value, element) {
                 let $floortop = $(element).offset().top;
                 if ($scorlltop > $floortop - 250) {
-                    _this.$loutiItem.eq(value).addClass('active').children().show();
-                    _this.$loutiItem.not(_this.$loutiItem.eq(value)).removeClass("active").children().hide();
+                    _this.$loutiItem.eq(value).addClass('active');
+                    _this.$loutiItem.not(_this.$loutiItem.eq(value)).removeClass('active');
                 }
                 
             })

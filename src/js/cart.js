@@ -92,12 +92,11 @@ $(document).ready(function () {
 
     //全选
     $('.chkAll').on('click', function () {
-        //$(this).parents().find('.goods-info').find('.cart-checkbox').find('input')
         $('.cart-alert').find('.cart-t-check').find('input').prop('checked', $(this).prop('checked'));
         calc();//重新计算
     });
     $('.cart-list').on('click', 'input:checkbox', function () {
-        if (($('.cart-alert').find('.cart-t-check').find('input')).length === $('.cart-alert').find('.cart-t-check').find('input:checked').length) {
+        if (($('.cart-alert').find('.cart-list').find('.cart-t-check').find('input')).length === $('.cart-alert').find('.cart-list').find('.cart-t-check').find('input:checked').length) {
             $('.chkAll').prop('checked', true);
         } else {
             $('.chkAll').prop('checked', false);
